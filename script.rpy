@@ -171,8 +171,8 @@ label question_next:
 
 label transicao:
         e "Próxima pergunta!"
-        num_Questao = num_Questao + 1
-        # jump new_scene
+        $ num_Questao += 1
+        #jump new_scene
         
 label final:
     e "...Eh? Era a última pergunta? Sério?"
