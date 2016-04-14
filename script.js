@@ -3,7 +3,7 @@
     to be pre-loaded.
 */
 var preload = [
-  "wheat.png"
+  "wheat.png" 
 ];
 
 /*
